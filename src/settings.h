@@ -25,9 +25,9 @@
 #include <TZ.h>
 
 const int UPDATE_INTERVAL_SECS = 10 * 60; // Update every 10 minutes
-const int SLEEP_INTERVAL_SECS = 0;        // Going to sleep after idle times, set 0 for insomnia
 const unsigned long TOUCH_DEBOUCE_TIME = 200;
 const unsigned long SCREEN_TIMEOUT = 30000;
+const unsigned long TFT_LED_TIMEOUT_NIGHT = 5000;
 
 /*
 Go to https://openweathermap.org/find?q= and search for a location. Go through the
